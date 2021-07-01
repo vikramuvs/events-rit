@@ -1,0 +1,13 @@
+/* .EventEntries {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+} */
+
+.EventEntries {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 50px;
+}
